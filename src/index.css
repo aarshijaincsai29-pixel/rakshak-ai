@@ -1,0 +1,27 @@
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+}
+
+.leaflet-container {
+  background: #020617;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+}
+/* Off-white light grid background */
+.bg-light-grid {
+  background-color: #fcfcf9;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 80px 100%;
+}/* Off-white light grid background */
+
+
